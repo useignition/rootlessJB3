@@ -133,9 +133,8 @@ Put together by @Jakeashacks :)</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="axi-vilcinschi-1269615-unsplash 11-12-29-872" translatesAutoresizingMaskIntoConstraints="NO" id="Ywj-ah-M39">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cos-HI-DLl">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cos-HI-DLl">
                                 <rect key="frame" x="16" y="493" width="343" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -224,7 +223,7 @@ Powered by #jelbrekLib</string>
                                 <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweaks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oQ-AU-pkf">
-                                <rect key="frame" x="65" y="332.33333333333331" width="70.666666666666686" height="25.333333333333314"/>
+                                <rect key="frame" x="65" y="332.33333333333331" width="71" height="25.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -234,7 +233,7 @@ Powered by #jelbrekLib</string>
                                 <color key="onTintColor" red="1" green="0.0" blue="0.15686274510000001" alpha="0.38" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iSuperSU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHx-zU-BT3">
-                                <rect key="frame" x="65" y="294" width="89" height="25.333333333333314"/>
+                                <rect key="frame" x="65" y="294.33333333333331" width="89" height="25"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -244,7 +243,7 @@ Powered by #jelbrekLib</string>
                                 <color key="onTintColor" red="1" green="0.0" blue="0.15686274510000001" alpha="0.38" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filza &amp; AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ivy-HA-XwD">
-                                <rect key="frame" x="65" y="254" width="100" height="26"/>
+                                <rect key="frame" x="65" y="254.33333333333337" width="100" height="26"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -254,7 +253,7 @@ Powered by #jelbrekLib</string>
                                 <color key="onTintColor" red="1" green="0.0" blue="0.15686274510000001" alpha="0.38" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mmv-nW-g6E">
-                                <rect key="frame" x="65" y="214" width="46" height="26"/>
+                                <rect key="frame" x="65" y="214.33333333333334" width="46" height="26"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -262,15 +261,19 @@ Powered by #jelbrekLib</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="cos-HI-DLl" firstAttribute="leading" secondItem="ZnH-x8-6FE" secondAttribute="leading" constant="16" id="28s-MK-mRz"/>
+                            <constraint firstItem="ZnH-x8-6FE" firstAttribute="trailing" secondItem="cos-HI-DLl" secondAttribute="trailing" constant="16" id="3RR-Km-2lT"/>
                             <constraint firstItem="ZnH-x8-6FE" firstAttribute="trailing" secondItem="CyY-xx-Ekw" secondAttribute="trailing" constant="65" id="3kU-Px-wEh"/>
                             <constraint firstItem="ZnH-x8-6FE" firstAttribute="trailing" secondItem="m4q-xC-ltu" secondAttribute="trailing" constant="65" id="7bn-gf-bYq"/>
                             <constraint firstItem="m4q-xC-ltu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vHx-zU-BT3" secondAttribute="trailing" constant="8" symbolic="YES" id="86X-rA-uFs"/>
+                            <constraint firstItem="a6d-jW-eU0" firstAttribute="top" secondItem="cos-HI-DLl" secondAttribute="bottom" constant="16.670000000000002" id="8G0-yr-Cai"/>
                             <constraint firstItem="CyY-xx-Ekw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6oQ-AU-pkf" secondAttribute="trailing" symbolic="YES" id="8QY-sc-yx7"/>
                             <constraint firstItem="73G-96-tii" firstAttribute="top" secondItem="xeb-ve-NfA" secondAttribute="bottom" constant="13" id="9tr-Xi-IsS"/>
                             <constraint firstItem="Ywj-ah-M39" firstAttribute="top" secondItem="3Yn-CP-TUK" secondAttribute="top" id="AF2-EO-iiV"/>
                             <constraint firstItem="aGY-r8-Bqe" firstAttribute="centerY" secondItem="ZnH-x8-6FE" secondAttribute="centerY" id="AdQ-Yc-L3g"/>
                             <constraint firstItem="JxL-Ff-gnc" firstAttribute="top" secondItem="a6d-jW-eU0" secondAttribute="bottom" constant="8" id="DCO-5S-BxS"/>
                             <constraint firstItem="Mmv-nW-g6E" firstAttribute="leading" secondItem="ZnH-x8-6FE" secondAttribute="leading" constant="65" id="Dbs-pZ-wXe"/>
+                            <constraint firstItem="cos-HI-DLl" firstAttribute="top" secondItem="z61-dM-Hjj" secondAttribute="bottom" constant="7.3300000000000001" id="EaD-2d-7SU"/>
                             <constraint firstItem="m4q-xC-ltu" firstAttribute="top" secondItem="sv4-6a-2q7" secondAttribute="bottom" constant="9" id="Jea-v7-F11"/>
                             <constraint firstItem="Ivy-HA-XwD" firstAttribute="leading" secondItem="ZnH-x8-6FE" secondAttribute="leading" constant="65" id="Jnc-th-dI8"/>
                             <constraint firstItem="xeb-ve-NfA" firstAttribute="top" secondItem="ZnH-x8-6FE" secondAttribute="top" id="LDe-cc-1gV"/>
@@ -280,11 +283,15 @@ Powered by #jelbrekLib</string>
                             <constraint firstItem="JxL-Ff-gnc" firstAttribute="bottom" secondItem="ZnH-x8-6FE" secondAttribute="bottom" id="TWi-hk-qa5"/>
                             <constraint firstItem="sv4-6a-2q7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ivy-HA-XwD" secondAttribute="trailing" constant="8" symbolic="YES" id="UOF-wg-YDJ"/>
                             <constraint firstItem="Ivy-HA-XwD" firstAttribute="top" secondItem="Mmv-nW-g6E" secondAttribute="bottom" constant="14" id="Ub9-ST-1Mm"/>
+                            <constraint firstItem="ZnH-x8-6FE" firstAttribute="trailing" secondItem="cos-HI-DLl" secondAttribute="trailing" constant="16" id="UpW-wp-zJi"/>
                             <constraint firstItem="xeb-ve-NfA" firstAttribute="centerX" secondItem="ZnH-x8-6FE" secondAttribute="centerX" id="VZq-Uy-lh6"/>
                             <constraint firstItem="vHx-zU-BT3" firstAttribute="leading" secondItem="ZnH-x8-6FE" secondAttribute="leading" constant="65" id="Yoi-EC-5OM"/>
                             <constraint firstItem="aGY-r8-Bqe" firstAttribute="top" secondItem="CyY-xx-Ekw" secondAttribute="bottom" constant="21.670000000000002" id="ZBc-uc-rf1"/>
+                            <constraint firstItem="a6d-jW-eU0" firstAttribute="top" secondItem="cos-HI-DLl" secondAttribute="bottom" constant="16.670000000000002" id="dF1-ca-Dnu"/>
                             <constraint firstItem="ZnH-x8-6FE" firstAttribute="trailing" secondItem="sv4-6a-2q7" secondAttribute="trailing" constant="65" id="ejx-4w-JT2"/>
+                            <constraint firstItem="cos-HI-DLl" firstAttribute="leading" secondItem="ZnH-x8-6FE" secondAttribute="leading" constant="16" id="fHU-GE-4Iu"/>
                             <constraint firstItem="ZnH-x8-6FE" firstAttribute="trailing" secondItem="8e7-5r-WFd" secondAttribute="trailing" constant="65" id="fzu-jv-KgA"/>
+                            <constraint firstItem="cos-HI-DLl" firstAttribute="top" secondItem="z61-dM-Hjj" secondAttribute="bottom" constant="7.3300000000000001" id="gAC-vm-drD"/>
                             <constraint firstItem="z61-dM-Hjj" firstAttribute="centerX" secondItem="ZnH-x8-6FE" secondAttribute="centerX" id="ijs-rt-wPy"/>
                             <constraint firstItem="CyY-xx-Ekw" firstAttribute="top" secondItem="m4q-xC-ltu" secondAttribute="bottom" constant="7.6699999999999999" id="kkW-kA-e9s"/>
                             <constraint firstAttribute="bottom" secondItem="Ywj-ah-M39" secondAttribute="bottom" id="lEz-uX-iU0"/>
